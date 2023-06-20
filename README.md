@@ -1,4 +1,4 @@
-# STL Maker
+# WIP STL Maker
 
 STL Maker is a Python project that allows you to generate 3D models of bolts and export them to the STL format.
 
