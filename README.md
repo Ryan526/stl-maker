@@ -1,9 +1,36 @@
-We will use Python with the `numpy-stl` library to generate the STL file for the 3D model of the bolt. The core classes and functions will be:
+# STL Maker
 
-1. `Bolt` class: Represents the bolt with its properties (diameter, length, thread pitch, head dimensions)
-2. `create_bolt_model` function: Creates the 3D model of the bolt using the `Bolt` class properties
-3. `save_to_stl` function: Saves the 3D model to an STL file
+STL Maker is a Python project that allows you to generate 3D models of bolts and export them to the STL format.
 
-Now, let's create the code for each file.
+## Installation
 
-requirements.txt
+This project requires Python 3.8 or later. The recommended way to install the necessary dependencies is by using a virtual environment.
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/Ryan526/stl-maker.git
+    ```
+2. Change into the project directory:
+    ```bash
+    cd stl-maker
+    ```
+3. Create a virtual environment:
+    ```bash
+    python3 -m venv venv
+    ```
+4. Activate the virtual environment:
+    ```bash
+    source venv/bin/activate
+    ```
+5. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To generate an STL model of a bolt, you need to provide the necessary parameters (diameter, length, thread pitch, head diameter, head height, and torx size) and then run the script `bolt.py`.
+
+Example:
+```bash
+python bolt.py
